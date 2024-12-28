@@ -3,45 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plan Comptable Marocain - Application Mobile</title>
+    <title>HielCompta - Plan Comptable Marocain</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="HielCompta.png">
 </head>
 <body>
     <div class="header">
-        <img src="logo.png" alt="Logo Plan Comptable Marocain" class="logo fade-in">
+        <img src="HielCompta.png" alt="Logo HielCompta" class="logo fade-in">
         <nav class="nav">
-            <a href="index.html" class="nav-link" data-translate="home">Accueil</a>
+            <a href="index.html" class="nav-link active" data-translate="home">Accueil</a>
             <a href="privacy.html" class="nav-link" data-translate="privacy">Politique de Confidentialité</a>
         </nav>
     </div>
 
     <div class="container">
         <div class="content fade-in">
-            <h1>Plan Comptable Marocain</h1>
+            <h1>HielCompta</h1>
+            <h2 class="subtitle">Plan Comptable Marocain</h2>
             
             <div class="feature-grid">
                 <div class="feature-card fade-in">
-                    <div class="feature-icon">📚</div>
+                    <div class="feature-icon">
+                        <img src="HielCompta.png" alt="Plan Comptable" class="feature-mini-logo">
+                    </div>
                     <h3>Plan Comptable Complet</h3>
-                    <p>Accédez à l'ensemble du plan comptable marocain.</p>
+                    <p>Accédez à l'ensemble du plan comptable marocain normalisé.</p>
                 </div>
                 
                 <div class="feature-card fade-in">
-                    <div class="feature-icon">📱</div>
-                    <h3>Interface Simple</h3>
-                    <p>Navigation intuitive et recherche rapide.</p>
+                    <div class="feature-icon">
+                        <img src="HielCompta.png" alt="Interface" class="feature-mini-logo">
+                    </div>
+                    <h3>Interface Intuitive</h3>
+                    <p>Navigation fluide et ergonomique pour une utilisation simplifiée.</p>
                 </div>
                 
                 <div class="feature-card fade-in">
-                    <div class="feature-icon">🔍</div>
-                    <h3>Recherche Avancée</h3>
-                    <p>Trouvez rapidement les comptes dont vous avez besoin.</p>
+                    <div class="feature-icon">
+                        <img src="HielCompta.png" alt="Recherche" class="feature-mini-logo">
+                    </div>
+                    <h3>Recherche Intelligente</h3>
+                    <p>Retrouvez instantanément les comptes par numéro ou intitulé.</p>
                 </div>
             </div>
 
             <div class="text-center">
-                <a href="#" class="download-btn" data-translate="download">Télécharger l'application</a>
+                <button class="download-btn disabled" data-translate="download" disabled>
+                    Application Bientôt Disponible
+                </button>
+                <p class="coming-soon">Lancement prévu pour 2024</p>
             </div>
         </div>
     </div>
